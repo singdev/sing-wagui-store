@@ -19,7 +19,6 @@ header {
 body {
     width: 100vw;
     min-height: 100vh;
-    overflow: hidden;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -35,7 +34,11 @@ main {
 }
 
 .logo {
-    width: 6rem;
+    width: 10rem;
+}
+
+.logo-app {
+    width: 4rem;
 }
 
 .icon {
@@ -64,10 +67,6 @@ td {
     text-align: left;
     padding: 1rem;
     border: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
 }
 
 th {
